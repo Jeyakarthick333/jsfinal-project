@@ -1,0 +1,195 @@
+body{
+    margin: 0;
+}
+#topbar{
+    
+    height:70px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 0px 10px black;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    opacity: 1;
+    background-color: white;
+}
+
+.avatar{
+    color: orangered;
+    font-size: 30px;
+    padding: 0px 20px;
+    
+}
+
+.top-iteams{
+    margin: 0px 20px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+#logo{
+    font-size: 50px;
+}
+
+#search-bar{
+    width: 500px;
+    margin-right: 100px;
+    height: 25px;
+    background-color: rgba(183, 176, 176,0.3);
+    border: none;
+    padding-left: 10px;
+
+}
+
+#lane{
+    font-weight: 200;
+}
+
+#left-iteams{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#clothing-section{
+    margin-top: 100px;
+}
+
+#clothing-title{
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+#accessories-title{
+    padding-left: 40px;
+    font-size: 25px;
+}
+
+#clothing-cards{
+    display: flex;
+    padding: 4% 8% 0;
+}
+
+.image{
+    width:100%;
+}
+
+.cards{
+    width: 100%;
+    
+    box-shadow: 0 2px 5px #ccc;
+    margin-left: 0.5%;
+    margin-right: 0.5%;
+    margin-bottom: 16px;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding-bottom: 5px;
+}
+
+#accessories-cards{
+    display: flex;
+    padding: 4% 8% 0;
+}
+
+.element1{
+    padding: 0 10px;
+}
+
+.element2{
+    padding: 0 10px;
+    letter-spacing: 2px;
+}
+
+.element3{
+    padding: 0 10px;
+    font-weight: 900;
+    color: #009688;
+    font-size: 25px;
+}
+
+#logo{
+    text-decoration: none;
+    color: black;
+}
+
+#cart-wrapper{
+    position: relative;
+    
+}
+
+.cart-icon{
+    font-size: 25px;
+}
+
+#cart-number{
+    position: absolute;
+    bottom:0;
+    right: -7px;
+    padding: 0px 4px;
+    background-color: #009688;
+    border-radius: 50%;
+    color: white;
+    font-weight: 700;
+    
+}
+
+#right-iteams{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+@media  screen and (max-width: 600px) {
+
+   
+    #left-iteams{
+        visibility: collapse;
+    }
+
+    #right-iteam{
+        visibility: visible;
+        margin-right: 500px;
+    }
+
+    #logo{
+        visibility: visible;
+    }
+
+    #clothing-cards{
+        display: flex;
+        flex-direction: column;
+        
+        
+    }
+
+    .cards{
+        
+        width: 100%;
+        
+    }
+    .image{
+        width: 100%;
+    }
+
+    
+
+    #accessories-cards{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #cart-wrapper{
+        transform: translateX(-925px);
+    }
+
+    .info-box{
+        width: 350px;
+    }
+
+    
+  }

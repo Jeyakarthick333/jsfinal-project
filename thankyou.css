@@ -1,0 +1,11 @@
+#content{
+    margin: 15% auto;
+    align-items: center;
+    
+    text-align: center;
+}
+
+.tick{
+    font-size: 200px;
+    color:#009688 ;
+}

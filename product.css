@@ -1,0 +1,95 @@
+#main-container{
+    display: flex;
+    padding: 4% 8%;
+    margin-top: 50px;
+}
+
+#leftSide{
+    width: 40%;
+    padding-right: 8%;
+    
+}
+
+#img{
+    width: 100%;
+   
+}
+
+#rightSide{
+    width: 60%;
+}
+
+.small-images{
+    width: 50px;
+    border-radius: 6px;
+    margin: 0 8px;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 4px;
+}
+
+#title{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-size: 50px;
+    margin-top: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+}
+
+#brand{
+    font-weight: 700;
+    font-family: 'Open Sans', sans-serif;
+    color: grey;
+
+}
+
+#price{
+    font-weight: 700;
+    font-size: 30px;
+    color: #009688;
+}
+
+#desciption-heading{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#description{
+    color: #ABC5CE;
+    font-size: 15px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+#productPreview{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+#cart-button{
+    
+    background-color: #009688;
+    margin-top: 75px;
+    padding: 10px 10px;
+    font-size: 25px;
+    font-weight: 700;
+    color: honeydew;
+    border: none;
+    border-radius: 5px;
+}
+
+.active{
+    border: 2px solid #009688;
+}
+
+@media screen and (max-width: 600px) {
+    #main-container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    #img{
+        width: 325px;
+    }
+}

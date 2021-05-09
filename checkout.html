@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+    <head>
+            <link rel="stylesheet" href="./checkout.css">
+            <link rel="stylesheet" href="./homepage.css">
+            <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+            <script src="base.js"></script>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            
+    </head>
+
+
+
+    <body>
+
+        <div id="topbar">
+            <div id="left-iteams">
+               <a href="./homepage.html" class="top-iteams" id="logo">SHOP<span id="lane">LANE</span></a>
+               <a class="top-iteams">CLOTHING</a>
+               <a class="top-iteams">ACCESSORIES</a>
+            </div>
+             
+            <div id="right-iteams">
+                <div><input id="search-bar" type="text" placeholder="search item"></div>
+                <div id="cart-wrapper"><a href="./checkout.html"><i class="fas fa-shopping-cart cart-icon"></i> </a>
+                    <p id="cart-number"></p>
+                </div>
+                <div><i class="fas fa-user-circle avatar"></i></div>
+                
+            </div>
+        </div> <!--End of top bar-->
+
+
+          <div id="main-body">
+
+                 
+              <div id="card-container">
+                <h1 id="checkout" >Checkout</h1> 
+                  <h3 id="total-iteam"></h3>
+                  <!--<div class="card-body">
+                        <div>
+                             <img class="product-image" src="" />
+                        </div>
+                         <div>
+                             <h4>Product Title</h4>
+                             <p>x3</p>
+                             <p>Amount: Rs <span>30000</span></p>
+                         </div>
+                      </div>-->
+
+              </div>
+              <div id="total-price">
+                  <h3>Total Amount</h3>
+                  <p id="total-amount"> </p>
+                  <button id="place-order-btn">PLACE ORDER</button>
+
+              </div>
+          </div>
+          <script src="./checkout.js"></script>
+    </body>
+</html>
